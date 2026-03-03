@@ -54,6 +54,9 @@ dependencies:
   json_annotation: ^4.9.0
   carousel_slider: ^5.1.1
   flutter_launcher_icons: ^0.14.4
+  desktop_window: ^0.4.2
+  webview_flutter_android: ^4.10.1
+  webview_flutter_wkwebview: ^3.23.0
   #  firebase_core: ^4.0.0
   #  firebase_auth: ^6.0.0
 

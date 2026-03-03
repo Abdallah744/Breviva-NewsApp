@@ -1,5 +1,7 @@
 // ignore_for_file: use_key_in_widget_constructors, unnecessary_import
 
+import 'dart:io' show Platform; // Import Platform
+
 import 'package:bloc/bloc.dart';
 import 'package:breviva_app/shared/cubit/app_cubit.dart';
 import 'package:breviva_app/shared/cubit/app_state.dart';
@@ -14,6 +16,10 @@ import 'layout/news_layout/home_layout.dart';
 
 void main() {
   // WidgetsFlutterBinding.ensureInitialized();
+  WidgetsFlutterBinding.ensureInitialized();
+
+  // Add this check to initialize the webview for Windows
+  if (Platform.isWindows) {}
   Bloc.observer = MyBlocObserver();
   DioHelper.init();
   // CashHelper.init();
