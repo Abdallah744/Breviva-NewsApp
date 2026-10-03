@@ -41,8 +41,6 @@ dependencies:
   path_provider: ^2.1.5
   condition_builder: ^2.1.0
   conditional_builder_null_safety: ^0.0.6
-  flutter_bloc: ^9.1.1
-  bloc: ^9.0.0
   dio: ^5.9.0
   hexcolor: ^3.0.1
   shared_preferences: ^2.5.3
@@ -57,8 +55,6 @@ dependencies:
   desktop_window: ^0.4.2
   webview_flutter_android: ^4.10.1
   webview_flutter_wkwebview: ^3.23.0
-  #  firebase_core: ^4.0.0
-  #  firebase_auth: ^6.0.0
 
 dev_dependencies:
   flutter_test:
